@@ -1,16 +1,16 @@
-here it doesnt showt# Auto Warranty KPI Dashboard
+# Auto Warranty KPI Dashboard
 
 ![Dashboard](Dashboard.png)
 
 ## 📌 Project Overview
-An end-to-end data analytics project built to simulate the **EU Ownership Experience Warranty & Service Reporting Pipeline.**  
-Developed using **MySQL, Python, and Tableau Public** — covering data extraction from SQL databases, data cleaning, KPI definition, and interactive dashboard delivery across Ownership Experience teams.
+An end-to-end data analytics project built to simulate the **Auto Warranty KPI Dashboard Reporting Pipeline.**  
+Developed using **MySQL, Python, and Power BI** — covering data extraction from SQL databases, data cleaning, KPI definition, and interactive dashboard delivery across Ownership Experience teams.
 
-This project directly reflects the responsibilities of an **EU Ownership Experience Data Analyst:**
+This project directly reflects the responsibilities of an **Auto Warranty and service Marketing Data Analyst:**
 - Extraction and integration of vehicle data from SQL databases (ERP simulation)
 - Definition, implementation and maintenance of KPIs for Warranty and Service Marketing teams
 - Data cleaning and preparation using Python — Pandas, Matplotlib and Seaborn
-- Development of an interactive Warranty Reporting Portal in Tableau to track and manage market KPIs
+- Development of an interactive Warranty Reporting Portal in Power BI to track and manage market KPIs
 - Supporting Ownership Experience teams with data-driven pre-decision analysis
 
 ---
@@ -21,7 +21,7 @@ This project directly reflects the responsibilities of an **EU Ownership Experie
 | **MySQL** | Schema creation, data loading, KPI queries |
 | **Python — Pandas** | Data cleaning, feature engineering, null handling |
 | **Python — Matplotlib & Seaborn** | Data visualization — 6 charts |
-| **Tableau Public** | Interactive KPI dashboard |
+| **Power BI** | Interactive KPI dashboard |
 | **GitHub** | Version control and documentation |
 
 ---
@@ -84,7 +84,7 @@ eu-ownership-experience-warranty_service-dashboard/
 ├── data/()
 │   └── warranty_clean.csv            # Cleaned dataset (13 columns)
 ├── screenshots/
-│   ├── dashboard.png                 # Final Tableau dashboard
+│   ├── dashboard.png                 # Final Power BI dashboard
 │   ├── chart1_issues_by_model
 │   ├── chart2_Warranty_status
 │   ├── chart3_maintenance_by_age
@@ -113,21 +113,21 @@ pip install pandas matplotlib seaborn
 3. Update CSV file path in Cell 2
 4. Run all cells — outputs saved to `/outputs/` folder
 
-### Tableau
-1. Open Tableau Public
+### Power BI
+1. Open Power BI
 2. Connect to `data/warranty_clean.csv`
-3. View dashboard: Tableau Dashboard([Automotive_Warranty_service.twb])
+3. View dashboard: Power BI Dashboard([Automotive_Warranty_service.twb])
 
 ---
 
 ## 📸 Dashboard Preview
-![Tableau Dashboard](Dasboard.png)
+![Power BI](Dashboard.png)
 
 ---
 
 ## 👤 Author
-**Tharun Teja Muthyala**  
-[LinkedIn]([https://www.linkedin.com/in/muthyalatharunteja]) | [GitHub]([https://github.com/muthyalatharunteja]) | [PORTFOLIO] ([https://muthyalatharunteja.github.io/Portfolio/])
+**Vidhit Dobariya**  
+[LinkedIn]([https://www.linkedin.com/in/vidhit-dobariya]) | [GitHub]([https://https://github.com/Vidhitdobariya]) | [PORTFOLIO] ([https://Vidhitdobariya.github.io/Portfolio/])
 
 ---
 
