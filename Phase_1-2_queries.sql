@@ -1,7 +1,7 @@
--- EU Ownership Experience — Warranty KPI Dashboard
+-- Auto's warrenty KPI Dashboard
 
-CREATE DATABASE IF NOT EXISTS kia_warranty_db;
-USE kia_warranty_db;
+CREATE DATABASE IF NOT EXISTS auto_warranty_kpi_db;
+USE auto_warranty_kpi_db;
  
 DROP TABLE IF EXISTS vehicle_warranty;
  
@@ -30,7 +30,7 @@ CREATE TABLE vehicle_warranty (
     Need_Maintenance     TINYINT(1)
 );
 
-USE kia_warranty_db;
+USE auto_warranty_kpi_db;
 
 -- Droped 7 columns that we don't need
 ALTER TABLE vehicle_warranty
@@ -53,19 +53,19 @@ SELECT COUNT(*) AS total_rows FROM vehicle_warranty;
 
 --  Phase 2: KPI SQL Queries. # 8 KPI queries across 3 teams
 -- ============================================================
--- EU Ownership Experience — Warranty KPI Dashboard
---  Database : kia_warranty_db
+-- Auto's warrenty KPI Dashboard
+--  Database : auto_warranty_kpi_db
 --  Table    : vehicle_warranty
 --  Teams    : Warranty | Service Marketing | BI
 -- ============================================================
 
-USE kia_warranty_db;
+USE auto_warranty_kpi_db;
 
 
 -- ============================================================
 --  TEAM: BI
 --  KPI : Top-level summary — overall health of the dataset
---  USE : KPI cards at the top of the Tableau dashboard
+--  USE : KPI cards at the top of the Power Bi dashboard
 -- ============================================================
 
 SELECT
@@ -100,7 +100,7 @@ ORDER BY Total_Reported_Issues DESC;
 -- ============================================================
 --  TEAM: Warranty
 --  KPI : Warranty expiry status — active vs expired
---  USE : KPI card + pie chart in Tableau
+--  USE : KPI card + pie chart in Power Bi
 -- ============================================================
 
 SELECT
@@ -143,7 +143,7 @@ ORDER BY Age_Group;
 -- ============================================================
 --  TEAM: Warranty
 --  KPI : Maintenance history quality by vehicle model
---  USE : Heatmap in Tableau — Good / Average / Poor per model
+--  USE : Heatmap in Power Bi — Good / Average / Poor per model
 -- ============================================================
 
 SELECT
@@ -160,7 +160,7 @@ ORDER BY Vehicle_Model, Maintenance_History;
 -- ============================================================
 --  TEAM: Service Marketing
 --  KPI : Monthly service activity trend
---  USE : Time-series line chart in Tableau
+--  USE : Time-series line chart in Power Bi
 -- ============================================================
 
 SELECT
