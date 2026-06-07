@@ -1,6 +1,6 @@
-# Auto Warranty KPI Dashboard
+here it doesnt showt# Auto Warranty KPI Dashboard
 
-![Dashboard](Dasboard.png)
+![Dashboard](Dashboard.png)
 
 ## 📌 Project Overview
 An end-to-end data analytics project built to simulate the **EU Ownership Experience Warranty & Service Reporting Pipeline.**  
