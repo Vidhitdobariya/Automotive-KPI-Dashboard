@@ -75,7 +75,7 @@ This project directly reflects the responsibilities of an **Auto Warranty and se
 
 ## 📁 Project Structure
 ```
-eu-ownership-experience-warranty_service-dashboard/
+Auto-Warranty-KPI-Dashboard/
 ├── sql/ (Phase_1-2_queries.sql)
 │   ├── phase1_create_table     # Schema creation & data load
 │   └── phase2_kpi_queries       # 8 KPI queries across 3 teams
@@ -116,7 +116,7 @@ pip install pandas matplotlib seaborn
 ### Power BI
 1. Open Power BI
 2. Connect to `data/warranty_clean.csv`
-3. View dashboard: Power BI Dashboard([Automotive_Warranty_service.twb])
+3. View dashboard: Power BI Dashboard([Auto_dashboard.pbix])
 
 ---
 
